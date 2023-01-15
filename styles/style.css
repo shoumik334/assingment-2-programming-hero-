@@ -130,3 +130,176 @@ nav{
     color: #727272;
     margin-bottom: 25px;
 }
+
+/*Feature list section */
+.feature{
+    display: flex;
+    gap: 25px;
+}
+
+.feature-list h2{
+    margin: 15px 0;
+    width: 468px;
+    height: 53px;
+    font-size: 30px;
+    padding-left: 15px;
+    border-left: 5px solid #FF900E;
+}
+
+.feature-list p{
+    width: 586px;
+    height: 78px;
+    font-size: 15px;
+    margin: 10px 0;
+    color: #727272;
+}
+.girl-img{
+    width: 708px;
+    height: 982px;
+    position: relative;
+}
+
+.girl-img img{
+    width: 708px;
+    height: 982px;
+    padding-left: 50px;
+    text-align: right;
+}
+.girl-img .btn{
+    position: absolute;
+    bottom: -50px;
+    left: 50px;
+    padding: 30px 30px;
+}
+
+.girl-img .btn h1{
+    font-size: 30px;
+}
+.girl-img .btn h4{
+    font-size: 13px;
+    font-weight: 400;
+}
+
+
+.card{
+    width: 586px;
+    height: 171px;
+    list-style: none;
+    margin: 15px -15px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 40px -18px #424242;;
+    transition: all 0.5s;
+}
+
+.card:hover{
+    transform: scale(1.08);
+}
+.card h3{
+    font-weight: 500;
+}
+.card p{
+    font-size: 13px;
+}
+
+/*Fact Section */
+.fact h2{
+    margin-top: 80px ;
+    font-size: 2rem;
+}
+.fact-title > p{
+    color: #727272;
+    margin-top: 30px ;
+    margin-bottom: 3rem;
+    font-size: 0.8rem;
+
+}
+
+.fact-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+}
+
+.fact-card{
+    width: 50%;
+    padding: 30px;
+    border: 1px solid #FF900E;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+.fact-card:hover{
+    transform: scale(1.1);
+    background: rgb(213, 153, 153);
+    color: #fff;
+}
+.fact-card:hover p{
+    color: #fff;
+}
+
+
+.fact-card img{
+    display: block;
+    width: 50px;
+    margin: 10px auto;
+}
+
+.fact-card h3{
+    text-align: center;
+}
+
+.fact-card p{
+    text-align: center;
+    color: #727272;
+    font-size: 0.8rem;
+}
+
+
+/* Sponsor */
+
+.sponsor-info{
+    margin: 40px auto;
+    width: 40vw;
+    text-align: center;
+}
+.sponsor-info h2{
+    font-size: 30px;
+}
+.sponsor-info p{
+    color: #727272;
+    font-size: 14px;
+    margin: 20px 10px;
+}
+
+.sponsor-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+}
+
+
+.sp-logo img{
+    width: 100%;
+    filter:grayscale() ;
+   
+}
+
+/*Footer*/
+
+footer .container{
+    border-radius: 6px;
+    background: #ffecd4;
+    margin-bottom: 150px;
+}
+
+footer p{
+    color: #727272;
+    text-align: center;
+}
+
+
+
+
+
+
