@@ -12,7 +12,7 @@ body{
 section{
     margin-bottom: 60px;
 }
-.contener{
+.container{
     width: 80%;
     margin: 0 auto;
     padding: 35px 0;
@@ -92,4 +92,41 @@ nav{
 
 .banner-img img{
     width: 100%;
+}
+
+/*Quick LIst Style */
+
+.quick_list{
+    display: flex;
+    gap: 50px;
+    padding: 10px;
+    align-items: center;
+}
+.quick_list div{
+    flex: 1;
+}
+.img{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+}
+.img img{
+    width: 100%;
+}
+.feature-title{
+    font-size: 35px;
+    width: 75%;
+    margin-bottom: 20px;
+}
+.part-1{
+    color: #727272;
+    font-weight: 400;
+}
+.part-2{
+    color: #FF900E;
+    font-weight: 800;
+}
+.quick_info p {
+    color: #727272;
+    margin-bottom: 25px;
 }
