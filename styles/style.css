@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+body{
+    max-width: 1920px;
+}
+
+section{
+    margin-bottom: 60px;
+}
+.contener{
+    width: 80%;
+    margin: 0 auto;
+    padding: 35px 0;
+}
+
+.btn{
+    display: block;
+    padding: 15px 25px;
+    border: 0;
+    border-radius: 5px;
+    background: #FF900E;
+    color: 	#fff;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/*NAv Section */
+
+header{
+    background: #faefe3;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-logo h1{
+    font-size: 30px;
+}
+.nav-link ul{
+    display: flex;
+    gap: 40px;
+}
+.nav-link li{
+    list-style: none;
+    padding: 10px 15px;
+    transition: all 0.7s;
+    border-radius: 10px;
+}
+.nav-link li:hover{
+    transform: scale(1.1);
+    background-color: #424242;
+}
+.nav-link li:hover a{
+    color: #fff;
+}
+.nav-link a{
+    text-decoration: none;
+    color: #424242;
+}
+
+
+.company-info{
+    width: 70%;
+    margin: 80px auto ;
+}
+ 
+
+.title{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.company-info p{
+    color: #727272;
+    font-size: 12px;
+    line-height: 1.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.company-info .btn{
+    display: block;
+    margin: 0 auto;
+}
+
+
+.banner-img img{
+    width: 100%;
+}
