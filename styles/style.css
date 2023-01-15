@@ -139,37 +139,31 @@ nav{
 
 .feature-list h2{
     margin: 15px 0;
-    width: 468px;
-    height: 53px;
+    width: 80%;
     font-size: 30px;
     padding-left: 15px;
     border-left: 5px solid #FF900E;
 }
 
 .feature-list p{
-    width: 586px;
-    height: 78px;
     font-size: 15px;
     margin: 10px 0;
     color: #727272;
 }
 .girl-img{
-    width: 708px;
-    height: 982px;
+    width: 200%;
     position: relative;
 }
 
 .girl-img img{
-    width: 708px;
-    height: 982px;
-    padding-left: 50px;
+    width: 100%;
     text-align: right;
 }
 .girl-img .btn{
     position: absolute;
-    bottom: -50px;
-    left: 50px;
-    padding: 30px 30px;
+    bottom: 0px;
+    left: -32px;
+    padding: 30px 20px;
 }
 
 .girl-img .btn h1{
@@ -182,8 +176,7 @@ nav{
 
 
 .card{
-    width: 586px;
-    height: 171px;
+    width: 90%;
     list-style: none;
     margin: 15px -15px;
     padding: 15px;
@@ -193,7 +186,7 @@ nav{
 }
 
 .card:hover{
-    transform: scale(1.08);
+    transform: scale(1.1);
 }
 .card h3{
     font-weight: 500;
@@ -284,6 +277,22 @@ nav{
     filter:grayscale() ;
    
 }
+/*Extra Section */
+.review-header{
+   font-family: 'Times New Roman', Times, serif;
+    color: #6c6c6c;
+}
+
+.review textarea{
+    resize: none;
+    height: 80%;
+    width: 90%;
+    border-radius: 10px;
+    border: 2px solid #807979;
+    padding: 20px;
+}
+
+
 
 /*Footer*/
 
@@ -297,6 +306,147 @@ footer p{
     color: #727272;
     text-align: center;
 }
+
+/*Responsive for mobile */
+@media only screen and (max-width:576px){
+
+    .container{
+        width: 90%;
+    }
+
+    nav, .nav-link ul, .quick_list , .feature{
+        flex-direction: column;
+    }   
+    .nav-link{
+        align-self: flex-start;
+    }
+    .nav-link ul{
+        gap: 0px;
+        width: 70vw;
+        padding: 0;
+    }
+    .nav-link li{
+    padding: 1rem;
+
+    }
+    .nav-logo{
+        margin-bottom: 20px;
+    }
+    .title{
+        font-size: 26px;
+    }
+
+    .company-info{
+        width: 100%;
+        
+    }
+
+    .feature-title{
+        font-size: 28px;
+        text-align: center;
+    }
+    .feature-title, .btn{
+        margin: 0 auto;
+        
+    }
+
+
+    .feature-list p{
+        padding:0 1rem;
+    }
+    .girl-img{
+        
+        width: 100%;
+        
+        margin: 0 auto;
+    }
+    .girl-img .btn{
+        bottom: -50px;
+        left: 0px;
+    }
+
+
+    .fact-cards{
+        grid-template-columns: repeat(1, 1fr );
+        grid-gap: 30px;
+    }
+
+    .sponsor-info{
+        width: 95vw;
+    }
+    .sponsor-logo{
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: space-around ;
+    }
+    .sp-logo img{
+        width:20vw ;
+    }
+
+}
+@media screen and (min-width: 577px) and (max-width: 1200px) {
+    .feature-list h2{
+        margin: 15px 0;
+        width: 468px;
+        height: 53px;
+        font-size: 30px;
+        padding-left: 15px;
+        border-left: 5px solid #FF900E;
+    }
+    
+    .feature-list p{
+        width: 586px;
+        height: 78px;
+        font-size: 15px;
+        margin: 10px 0;
+        color: #727272;
+    }
+    .girl-img{
+        width: 708px;
+        height: 982px;
+        position: relative;
+    }
+    
+    .girl-img img{
+        width: 708px;
+        height: 982px;
+        padding-left: 50px;
+        text-align: right;
+    }
+    .girl-img .btn{
+        position: absolute;
+        bottom: -50px;
+        left: 50px;
+        padding: 30px 30px;
+    }
+    
+    .girl-img .btn h1{
+        font-size: 30px;
+    }
+    .girl-img .btn h4{
+        font-size: 13px;
+        font-weight: 400;
+    }
+    
+    
+    .card{
+        width: 586px;
+        height: 171px;
+        list-style: none;
+        margin: 15px -15px;
+        padding: 15px;
+        border-radius: 5px;
+        box-shadow: 0 0 40px -18px #424242;;
+        transition: all 0.5s;
+    }
+
+    
+}
+
+
+
+
+
 
 
 
